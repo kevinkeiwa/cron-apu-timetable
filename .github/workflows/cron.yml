@@ -2,7 +2,7 @@ name: kevin is working
 
 on:
   schedule:
-    - cron: "0 2 * * 5" # runs every friday at 2 AM UTC
+    - cron: "0 2 * * 4" # runs every friday at 2 AM UTC
   workflow_dispatch:
 
 jobs:
